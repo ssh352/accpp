@@ -19,17 +19,8 @@ int main()
 	string name;
 	cin >> name;
 	cout << "Hello, " << name << "!" << endl;
-
-	// ask for and read the midterm and final grades
-	cout << "Please enter your midterm and final exam grades: ";
-	double midterm, final;
-	cin >> midterm >> final;
-
-	// ask for and read the homework grades
-	cout << "Enter all your homework grades, "
-	        "followed by end-of-file: ";
-
 	vector<double> homework;
+	
 	double x;
 	// invariant: `homework' contains all the homework grades read so far
 	while (cin >> x)
