@@ -46,19 +46,23 @@ int main()
 	vec_sz quart = size/4;
 	double q1, q2, q3;
 
-	bool dev = size % 4 == 0;
-
-	for (int i = 0; i < 3; ++i)
+	if(size % 2 == 0)
 	{
-		if (dev)
-		{
-			cout << (numbers[quart*i] + numbers[quart*i-1]) / 2 << endl;
-		}
-		else
-		{
-			cout << numbers[quart*i] << endl;
-		}
+		q1 = (numbers[quart-1] + numbers[quart]) / 2;
+		q2 = (numbers[quart*2-1] + numbers[quart*2]) / 2;
+		q3 = (numbers[quart*3-1] + numbers[quart*3]) / 2;
 	}
+	else
+	{
+		q1 = numbers[quart];
+		q2 = numbers[quart*2];
+		q3 = numbers[quart*3];
+	}
+
+	cout << "q1: " << q1 << endl;
+	cout << "q2: " << q2 << endl;
+	cout << "q3: " << q3 << endl;
+
 
 	return 0;
 }
