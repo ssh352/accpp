@@ -2,6 +2,7 @@
 #include "Student_info.h"
 
 using std::istream;  using std::vector;
+using std::cout; using std::endl;
 
 bool compare(const Student_info& x, const Student_info& y)
 {
@@ -11,9 +12,15 @@ bool compare(const Student_info& x, const Student_info& y)
 istream& read(istream& is, Student_info& s)
 {
 	// read and store the student's name and midterm and final exam grades
-	is >> s.name >> s.midterm >> s.final;
+	double midterm, final;
+	vector<double> homework;
 
-	read_hw(is, s.homework);  // read and store all the student's homework grades
+	is >> s.name >> midterm >> final;
+
+	read_hw(is, homework);  // read and store all the student's homework grades
+
+	cout << s.name << " hmwk size: " << homework.size() << endl;
+	s.score = grade(midterm, final, homework);
 	return is;
 }
 
@@ -34,4 +41,3 @@ istream& read_hw(istream& in, vector<double>& hw)
 	}
 	return in;
 }
-

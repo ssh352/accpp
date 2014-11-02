@@ -51,12 +51,13 @@ int main()
 		// write the name, padded on the right to `maxlen' `+' `1' characters
 		cout << students[i].name
 		     << string(maxlen + 1 - students[i].name.size(), ' ');
-
 		// compute and write the grade
 		try {
-			double final_grade = grade(students[i]);
+			// double final_grade = grade(students[i]);
 			streamsize prec = cout.precision();
-			cout << setprecision(3) << final_grade
+			// cout << setprecision(3) << final_grade
+			//      << setprecision(prec);
+			cout << setprecision(3) << students[i].score
 			     << setprecision(prec);
 		} catch (domain_error e) {
 			cout << e.what();

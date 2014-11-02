@@ -6,16 +6,24 @@
 
 using std::cout; using std::cin;
 using std::endl; using std::string;
+using std::setw; using std::setprecision;
 
 int main(int argc, char const *argv[])
 {
-	int x = 0;
+	double x = 0;
+	int width = 9;
 	cout << "input number of squares: ";
 	cin >> x;
 
-	for(int i=0; i!=x; ++i)
+	for(int i=0; i!= int(x + 1); ++i)
 	{
-		cout << i << std::setw(log10(abs(i*i + 10)) * 3) << i*i << endl;
+		if (i == 0)
+		{
+			cout << 0 << setw(width) << 0 << endl;
+			continue;
+		}
+		int len = log10(i*i);
+		cout << i << setw(len + width) << setprecision(len + 3) << double(i*i) << endl;
 	}
 	return 0;
 }

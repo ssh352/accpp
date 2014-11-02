@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"set",
+				"setprecision"
+			],
+			[
+				"v_",
+				"v_score"
+			],
+			[
+				"v",
+				"v_name"
+			],
+			[
+				"score",
+				"score_cnt"
+			],
+			[
+				"min",
+				"min_len"
+			],
+			[
+				"mi",
+				"min_len"
+			],
+			[
+				"max",
+				"max_len"
+			],
+			[
+				"new",
+				"new_word"
+			],
+			[
+				"inc",
+				"include	cpp-include"
+			],
+			[
+				"vec",
+				"vec_sz"
+			],
+			[
+				"e",
+				"endl"
+			],
+			[
+				"be",
+				"begin"
+			],
+			[
+				"num",
+				"num_size"
+			],
+			[
+				"in",
+				"include	cpp-include"
+			],
+			[
+				"rec",
+				"rectagle"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"col",
+				"cols"
+			],
+			[
+				"ma",
+				"main	main()"
+			],
+			[
 				"he",
 				"hello	py-hello"
 			]
@@ -15,20 +91,92 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 207.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"save",
+				"project",
 				"Project: Save As"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"defa",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"snippet",
+				"Snippet: #include <…>"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sync",
+				"Set Syntax: C++"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"default",
+				"Preferences: Settings - Default"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"subli",
+				"Preferences: SublimeLinter Settings – Default"
 			],
 			[
 				"folder",
 				"Project: Add Folder"
 			],
 			[
-				"side",
-				"View: Toggle Open Files in Side Bar"
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"save",
+				"Project: Save As"
 			],
 			[
 				"close",
@@ -39,10 +187,6 @@
 				"Preferences: Browse Packages"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"instal",
 				"Package Control: Install Package"
 			],
@@ -51,23 +195,11 @@
 				"Fetch: File"
 			],
 			[
-				":w",
-				":w - Save"
-			],
-			[
 				"python",
 				"Set Syntax: Python"
 			],
 			[
 				"sy",
-				"Set Syntax: C#"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"sync",
 				"Set Syntax: C#"
 			],
 			[
@@ -112,12 +244,48 @@
 	},
 	"file_history":
 	[
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/4-2.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/Student_info.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/4-5.cpp",
+		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/grade.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/main1.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/main2.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/main3.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/median.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/Student_info.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/grade.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/median.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter03/3-3.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter03/3-4.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter03/3-5.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter03/3-6.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter03/avg.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/data/grades",
+		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/wuhao/Documents/GitHub/accpp/data/single_grade",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter03/makefile",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter03/med.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter03/3-2.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/data/loremIpsum.txt",
+		"/Volumes/Data/IT/InstallationFiles/FMP_13.0.1.194_Installer/Assisted Install.txt",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter02/2-5.cpp",
+		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/C++/cpp-include.sublime-snippet",
+		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/wuhao/Documents/GitHub/otherPrograms/test.py",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter02/2-7.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter02/frame.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter02/2-4.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter02/2-9.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter02/2-8.cpp",
+		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/wuhao/Documents/GitHub/accpp/helloWorld.cpp",
+		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/Linter/cpplint.py",
+		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
 		"/Users/wuhao/Documents/GitHub/otherPrograms/subl_2.py",
 		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/Python/hello.sublime-snippet",
 		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/wuhao/Documents/GitHub/accCpp/chapter02/2-23.cc"
 	],
 	"find":
@@ -136,6 +304,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/",
+			"homework",
+			"mid",
+			"homework",
+			"sort",
+			"suqare",
+			"lenth",
+			"c++",
 			"mode",
 			"move",
 			"some",
@@ -212,6 +388,50 @@
 		"selected_items":
 		[
 			[
+				"avg",
+				"accpp/chapter03/avg.cc"
+			],
+			[
+				"grades",
+				"accpp/data/grades"
+			],
+			[
+				"3-4",
+				"accpp/chapter03/3-4.cpp"
+			],
+			[
+				"3-3",
+				"accpp/chapter03/3-3.cpp"
+			],
+			[
+				"fram",
+				"accpp/chapter02/frame.cc"
+			],
+			[
+				"2-4",
+				"accpp/chapter02/2-4.cc"
+			],
+			[
+				"2-7",
+				"accpp/chapter02/2-7.cpp"
+			],
+			[
+				"2-",
+				"accpp/chapter02/2-4.cc"
+			],
+			[
+				"frame",
+				"accpp/chapter02/frame.cc"
+			],
+			[
+				".py",
+				"otherPrograms/test.py"
+			],
+			[
+				".cpp",
+				"helloWorld.cpp"
+			],
+			[
 				"subl",
 				"otherPrograms/subl_2.py"
 			]
@@ -220,11 +440,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": true,
