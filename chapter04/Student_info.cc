@@ -21,6 +21,7 @@ istream& read(istream& is, Student_info& s)
 
 	cout << s.name << " hmwk size: " << homework.size() << endl;
 	s.score = grade(midterm, final, homework);
+	cout << s.score << endl;
 	return is;
 }
 
