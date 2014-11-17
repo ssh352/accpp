@@ -1,15 +1,16 @@
 #include <iostream>
+#include <iomanip>
 #include <string>
 #include <vector>
 #include <list>
+#include <tuple>
 // #include "split.h"
 
 using std::cout; using std::cin;
 using std::endl; using std::string;
 using std::vector; using std::list;
 
-
-list<string> split(const string& s)
+list<string> split_by_space(const string& s)
 {
 	list<string> ret;
 	typedef string::size_type string_size;
@@ -49,7 +50,6 @@ string reassemble(list<string>& ori_str_vec)
 	{
 		ping_me += ' ' + (*iter);
 	}
-	// cout << ping_me << endl;
 	return ping_me;
 }
 
@@ -59,11 +59,8 @@ vector<string> rotate_lines(vector<string>& original_lines)
 	vector<string>::iterator iter;
 	for(iter = original_lines.begin(); iter != original_lines.end(); ++iter)
 	{
-		// cout << (*iter) << endl;
-
 		list<string> splited_line;
-		splited_line = split(*iter);
-		// cout << splited_line.size() << endl;
+		splited_line = split_by_space(*iter);
 
 		size_t counter = 0, total = splited_line.size();
 		// reassemble string
@@ -79,30 +76,68 @@ vector<string> rotate_lines(vector<string>& original_lines)
 
 			++counter;
 		}while(counter != total);
-
-		// list<string>::iterator sl_iter;
-		// for(sl_iter = splited_line.begin(); sl_iter != splited_line.end(); ++sl_iter)
-		// {
-		// 	cout << (*sl_iter) << endl;
-		// }
 	}
 
-	cout << new_vec.size() << endl;
 	return new_vec;
 }
 
-void output(vector<string>& m_vec)
+std::vector<string> split_by_char(const string& s)
+{
+	typedef string::size_type string_size;
+	string_size i = 0;
+	vector<string> m_res;
+
+	// invariant: we have processed characters `['original value of `i', `i)'
+	while (i != s.size())
+	{
+		// ignore leading blanks
+		// invariant: characters in range `['original `i', current `i)' are all spaces
+		while (i != s.size() && isspace(s[i]))
+			++i;
+
+		// find end of next word
+		string_size j = i;
+		// invariant: none of the characters in range `['original `j', current `j)' is a space
+		while (j != s.size() && s[j] != '\\')
+			++j;
+
+		// if we found some nonwhitespace characters
+		if (i != j)
+		{
+			// copy from `s' starting at `i' and taking `j' `\-' `i' chars
+			m_res.push_back(s.substr(i, j-i));
+			m_res.push_back(s.substr(j+1, s.size()));
+			// i = j;
+			return m_res;
+		}
+	}
+	return m_res;
+}
+
+void output(vector<string>& f_vec)
 {
 	vector<string>::iterator iter;
-	for(iter = m_vec.begin(); iter != m_vec.end(); ++iter)
+	for(iter = f_vec.begin(); iter != f_vec.end(); ++iter)
 	{
-		cout << (*iter) << endl;
+		if ((*iter).find("\\") != string::npos)
+		{
+			// replace back slash
+			vector<string> cols = split_by_char((*iter));
+			cout << std::setw(30) << cols[0];
+			cout << '\t' << cols[1] << endl;
+		}
+		else
+		{
+			cout << (*iter) << endl;
+		}
 	}
 }
+
 int main()
 {
 	string line;
 	vector<string> m_vec, shuffled_vec;
+
 	while(getline(cin, line))
 	{
 		m_vec.push_back(line);
@@ -111,7 +146,6 @@ int main()
 	// step 1:
 	shuffled_vec = rotate_lines(m_vec);
 
-	output(shuffled_vec);
 	// step 2:
 	sort(shuffled_vec.begin(), shuffled_vec.end());
 
