@@ -5,13 +5,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "grade.h"
 
 struct Student_info {
 	std::string name;
-	double score;
-	// double midterm, final;
-	// std::vector<double> homework;
+	double midterm, final;
+	std::vector<double> homework;
 };
 
 bool compare(const Student_info&, const Student_info&);

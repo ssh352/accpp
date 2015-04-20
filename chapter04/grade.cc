@@ -2,7 +2,7 @@
 #include <vector>
 #include "grade.h"
 #include "median.h"
-// #include "Student_info.h"
+#include "Student_info.h"
 
 using std::domain_error;  using std::vector;
 
@@ -23,8 +23,8 @@ double grade(double midterm, double final, const vector<double>& hw)
 	return grade(midterm, final, median(hw));
 }
 
-// double grade(const Student_info& s)
-// {
-// 	return grade(s.midterm, s.final, s.homework);
-// }
+double grade(const Student_info& s)
+{
+	return grade(s.midterm, s.final, s.homework);
+}
 
