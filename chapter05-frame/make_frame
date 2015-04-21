@@ -1,0 +1,20 @@
+CXX = g++
+CC = g++
+
+all:    main
+
+main.o: main.cpp
+
+frame.o:    frame.cpp frame.h
+
+hcat.o: hcat.cpp hcat.h
+
+vcat.o: vcat.cpp vcat.h
+
+vcout.o:    vcout.cpp vcout.h
+
+main:  main.o frame.o hcat.o vcat.o vcout.o
+
+test: ; ./main < ../data/fox
+
+clean: ; rm -f *.o *.exe frame main

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"main_split"
+			],
+			[
+				"test",
+				"test_extract_fails"
+			],
+			[
 				"stu",
 				"students_v"
 			],
@@ -141,9 +149,14 @@
 	[
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 247.0,
+		"height": 207.0,
+		"last_filter": ":w",
 		"selected_items":
 		[
 			[
@@ -287,11 +300,14 @@
 				"View: Toggle Side Bar"
 			]
 		],
-		"width": 449.0
+		"width": 392.0
 	},
 	"console":
 	{
-		"height": 139.0
+		"height": 139.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -302,18 +318,36 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/wuhao/Documents/GitHub/accpp"
+	],
 	"file_history":
 	[
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05/main_split.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/makefile",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05/makefile",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05/makefile_split",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-student_grade/makefile",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/makefile",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/main3.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/main.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/test_extract_fails.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/test_extract_fails.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/main.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/5-2.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05/5-2.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/5-1.cpp",
 		"/Users/wuhao/Documents/GitHub/pydata-book/ch02.ipynb",
 		"/Users/wuhao/Downloads/unix-source/chapter05/makefile",
 		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05/makefile",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05/grade.h",
 		"/Users/wuhao/Documents/GitHub/accpp/run_time_measurer.cpp",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter04/Student_info.h",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter04/Student_info.cc",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05/grade.cc",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05/5-2.cpp",
 		"/Users/wuhao/Documents/GitHub/vimSettings/Preferences.sublime-settings",
 		"/Users/wuhao/Documents/GitHub/accpp/data/grades",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05/man.cpp",
@@ -335,8 +369,6 @@
 		"/Users/wuhao/Desktop/step6.xml",
 		"/Users/wuhao/Desktop/NGPicPuller.py",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split_main.cc",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split.h",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split.cc",
 		"/Users/wuhao/Desktop/Untitled 1.txt",
 		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/C++/cpp-vector_iterator.sublime-snippet",
 		"/Users/wuhao/Dropbox/RAShare/kitImport.xml",
@@ -347,7 +379,6 @@
 		"/Users/wuhao/Documents/GitHub/accpp/chapter04/grade.cc",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter04/main1.cc",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter04/main2.cc",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter04/main3.cc",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter04/median.cc",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter04/median.h",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter03/3-3.cpp",
@@ -386,7 +417,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -396,6 +427,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main",
+			"Student_info",
+			"main",
+			"fgrade",
 			"ext_main",
 			"failed",
 			"Student_Info",
@@ -482,16 +517,51 @@
 	{
 		"height": 112.0
 	},
-	"replace":
+	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "accpp.sublime-project",
+	"replace":
+	{
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"make",
+				"accpp/chapter05/makefile"
+			],
+			[
+				"main.cc",
+				"accpp/chapter05-hao/main.cc"
+			],
+			[
+				"main",
+				"accpp/chapter05-hao/main.cpp"
+			],
+			[
+				"text",
+				"accpp/chapter05-hao/test_extract_fails.cpp"
+			],
+			[
+				"test",
+				"accpp/chapter05-hao/test_extract_fails.h"
+			],
+			[
+				"5-2",
+				"accpp/chapter05-hao/5-2.cpp"
+			],
+			[
+				"5-1",
+				"accpp/chapter05-hao/5-1.cpp"
+			],
 			[
 				"grade",
 				"accpp/chapter05/grade.h"
@@ -586,15 +656,32 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 169.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
