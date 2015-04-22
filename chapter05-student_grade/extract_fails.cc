@@ -6,7 +6,6 @@
 using std::vector;
 using std::list;
  
- 
 // predicate to determine whether a student failed
 // (S5.1/75)
 bool fgrade(const Student_info& s)
@@ -88,6 +87,27 @@ list<Student_info> extract_fails_v4(list<Student_info>& students)
         if (fgrade(*iter))
         {
             fail.push_back(*iter);
+            std::cout << (*iter).name << std::endl;
+            iter = students.erase(iter);
+        }
+        else
+            ++iter;
+    }
+    return fail;
+}
+
+
+Students_group typedef_extract_fails(Students_group& students)
+{
+    Students_group fail;
+    Students_group::iterator iter = students.begin();
+
+    while(iter != students.end())
+    {
+        if (fgrade(*iter))
+        {
+            fail.push_back(*iter);
+            std::cout << (*iter).name << std::endl;
             iter = students.erase(iter);
         }
         else

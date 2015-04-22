@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"main",
-				"main_split"
-			],
-			[
 				"test",
 				"test_extract_fails"
 			],
@@ -147,6 +143,87 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 2322,
+				"line_ending": "Unix",
+				"name": "#include <iostream>  // cin, cout, endl, getline"
+			}
+		},
+		{
+			"file": "frame.cpp",
+			"settings":
+			{
+				"buffer_size": 862,
+				"line_ending": "Unix",
+				"name": "#include <string>      // string"
+			}
+		},
+		{
+			"file": "hcat.cpp",
+			"settings":
+			{
+				"buffer_size": 1086,
+				"line_ending": "Unix",
+				"name": "#include <string>      // string"
+			}
+		},
+		{
+			"file": "vcat.cpp",
+			"settings":
+			{
+				"buffer_size": 595,
+				"line_ending": "Unix",
+				"name": "#include <string>      // string"
+			}
+		},
+		{
+			"file": "vcout.cpp",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Unix",
+				"name": "#include <iostream>"
+			}
+		},
+		{
+			"file": "frame.h",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Unix",
+				"name": "#ifndef GUARD_FRAME_H"
+			}
+		},
+		{
+			"file": "hcat.h",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Unix",
+				"name": "#ifndef GUARD_HCAT_H"
+			}
+		},
+		{
+			"file": "vcat.h",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Unix",
+				"name": "#ifndef GUARD_VCAT_H"
+			}
+		},
+		{
+			"file": "vcout.h",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Unix",
+				"name": "#ifndef GUARD_VCOUT_H"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -320,19 +397,18 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/wuhao/Documents/GitHub/accpp",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter04"
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame"
 	],
 	"file_history":
 	[
-		"/Users/wuhao/Documents/GitHub/accpp/chapter04/makefile",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05/main_split.cc",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split.h",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split.cc",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05/makefile",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05/makefile_split",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05-student_grade/makefile",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/make_frame",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-Mathalope/extract_fails.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-Mathalope/main.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-Mathalope/makefile",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-Mathalope/main.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-Mathalope/extract_fails.cpp",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/makefile",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter04/makefile",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter04/main3.cc",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/main.cc",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-hao/test_extract_fails.h",
@@ -344,6 +420,7 @@
 		"/Users/wuhao/Documents/GitHub/pydata-book/ch02.ipynb",
 		"/Users/wuhao/Downloads/unix-source/chapter05/makefile",
 		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05/makefile",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05/grade.h",
 		"/Users/wuhao/Documents/GitHub/accpp/run_time_measurer.cpp",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter04/Student_info.h",
@@ -370,6 +447,8 @@
 		"/Users/wuhao/Desktop/step6.xml",
 		"/Users/wuhao/Desktop/NGPicPuller.py",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split_main.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05/split.cc",
 		"/Users/wuhao/Desktop/Untitled 1.txt",
 		"/Users/wuhao/Library/Application Support/Sublime Text 2/Packages/User/C++/cpp-vector_iterator.sublime-snippet",
 		"/Users/wuhao/Dropbox/RAShare/kitImport.xml",
@@ -414,7 +493,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -428,9 +507,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"main",
-			"Student_info",
-			"main",
+			"XX",
+			"main3",
 			"fgrade",
 			"ext_main",
 			"failed",
@@ -478,14 +556,284 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2321,
+								2321
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include <iostream>  // cin, cout, endl, getline",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "frame.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								862,
+								862
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include <string>      // string",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "hcat.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1086,
+								1086
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include <string>      // string",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "vcat.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include <string>      // string",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "vcout.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include <iostream>",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "frame.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef GUARD_FRAME_H",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "hcat.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef GUARD_HCAT_H",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "vcat.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef GUARD_VCAT_H",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "vcout.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef GUARD_VCOUT_H",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -523,7 +871,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "accpp.sublime-project",
+	"project": "cpt5-frame.sublime-project",
 	"replace":
 	{
 		"height": 46.0
@@ -536,8 +884,8 @@
 		"selected_items":
 		[
 			[
-				"make",
-				"accpp/chapter05/makefile"
+				"mak",
+				"make_frame"
 			],
 			[
 				"main.cc",
@@ -546,6 +894,10 @@
 			[
 				"main",
 				"accpp/chapter05-hao/main.cpp"
+			],
+			[
+				"make",
+				"accpp/chapter05-hao/makefile"
 			],
 			[
 				"text",

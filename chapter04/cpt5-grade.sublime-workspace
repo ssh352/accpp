@@ -320,8 +320,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/wuhao/Documents/GitHub/accpp",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter04"
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-student_grade"
 	],
 	"file_history":
 	[
@@ -414,7 +413,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -485,7 +484,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -523,7 +522,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "accpp.sublime-project",
+	"project": "cpt5-grade.sublime-project",
 	"replace":
 	{
 		"height": 46.0
