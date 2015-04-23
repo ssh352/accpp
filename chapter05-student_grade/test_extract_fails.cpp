@@ -74,7 +74,7 @@ int test_extract_fails_v4()
 }
 
 // for testing extract_fails_v4 - that uses list<Student_info>
-int test_typedef_extract_fails()
+int test_extract_fails_v5()
 {
     Students_group students;
     Student_info record;
@@ -86,7 +86,31 @@ int test_typedef_extract_fails()
     // Extract the failed students and time-stamp it!
  
     clock_t startTime = clock();
-    Students_group students_failed = typedef_extract_fails(students);
+    Students_group students_failed = extract_fails_v5(students);
+    clock_t endTime = clock();
+    clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+ 
+    streamsize prec = cout.precision();
+    cout << "Elapsed (in seconds): " << setprecision(30) << timeInSeconds
+         << setprecision(prec) << endl;
+ 
+    return 0;
+}
+
+int test_extract_fails_v6()
+{
+    vector<Student_info> students;
+    Student_info record;
+
+    // read and store all the student's data.
+    while (read(cin, record))
+        students.push_back(record);
+ 
+    // Extract the failed students and time-stamp it!
+ 
+    clock_t startTime = clock();
+    vector<Student_info> students_failed = extract_fails_v6(students);
     clock_t endTime = clock();
     clock_t clockTicksTaken = endTime - startTime;
     double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;

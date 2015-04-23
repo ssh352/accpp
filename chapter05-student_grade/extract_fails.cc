@@ -5,6 +5,8 @@
  
 using std::vector;
 using std::list;
+using std::cout;
+using std::endl;
  
 // predicate to determine whether a student failed
 // (S5.1/75)
@@ -96,8 +98,8 @@ list<Student_info> extract_fails_v4(list<Student_info>& students)
     return fail;
 }
 
-
-Students_group typedef_extract_fails(Students_group& students)
+// 5-3: using typedef to generalize data structures
+Students_group extract_fails_v5(Students_group& students)
 {
     Students_group fail;
     Students_group::iterator iter = students.begin();
@@ -114,4 +116,32 @@ Students_group typedef_extract_fails(Students_group& students)
             ++iter;
     }
     return fail;
+}
+
+/* 5-6: vector. copies records for passing students to the beginning of students,
+then uses the resize function to remove the extra elements*/
+vector<Student_info> extract_fails_v6(vector<Student_info>& students)
+{
+    typedef vector<Student_info>::size_type vec_size;
+    vec_size passed_count = 0;
+    // vector<Student_info>::iterator iter = students.begin();
+
+    vec_size i = 0;
+    while (i != students.size())
+    {
+        if (!fgrade(students[i]))
+        {
+            cout << students[i].name << " passed" << endl;
+            students.insert(students.begin(), students[i]);
+            // this ++i is important! otherwise, the loop will stuck at the first passed student
+            ++i;
+            ++passed_count;
+        }
+        ++i;
+    }
+
+    // resize vector to pass-only
+    cout << "passed count: " << passed_count << endl;
+    students.resize(passed_count);
+    return students;
 }

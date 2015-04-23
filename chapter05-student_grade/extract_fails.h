@@ -11,6 +11,7 @@ std::vector<Student_info> extract_fails_v1(std::vector<Student_info>&);
 std::vector<Student_info> extract_fails_v2(std::vector<Student_info>&);
 std::vector<Student_info> extract_fails_v3(std::vector<Student_info>&);
 std::list<Student_info> extract_fails_v4(std::list<Student_info>&);
-Students_group typedef_extract_fails(Students_group&);
+Students_group extract_fails_v5(Students_group&);
+std::vector<Student_info> extract_fails_v6(std::vector<Student_info>&);
 
 #endif // GUARD_EXTRACT_FAILS_H
