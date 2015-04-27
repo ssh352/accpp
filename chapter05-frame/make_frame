@@ -15,6 +15,6 @@ vcout.o:    vcout.cpp vcout.h
 
 main:  main.o frame.o hcat.o vcat.o vcout.o
 
-test: ; ./main < ../data/fox
+test: ; ./main < ../data/test
 
 clean: ; rm -f *.o *.exe frame main
