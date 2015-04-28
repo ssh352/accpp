@@ -34,12 +34,18 @@ int main()
             "-----------------------------------------------------\n";
     // vcout(frame(p));
     // frame(p, "left", '*');
-    string test_l("left");
-    string test_r("right");
-    string test_c("center");
-    vcout(center(p, test_l));
-    vcout(center(p, test_r));
-    vcout(center(p, test_c));
+
+    // 5-5, test the center function
+    // string test_l("left");
+    // string test_r("right");
+    // string test_c("center");
+    // vcout(center(p, test_l));
+    // vcout(center(p, test_r));
+    // vcout(center(p, test_c));
+
+    // 5-7 test using empty string
+    // std::vector<string> v;
+    // vcout(frame(v));
     // cout << "-----------------------------------------------------\n"
     //         "Display: vcat(p, frame(p))                           \n"
     //         "-----------------------------------------------------\n";
@@ -50,11 +56,11 @@ int main()
     //         "-----------------------------------------------------\n";
     // // vcout(vcat(frame(p),p));
  
-    // cout << "-----------------------------------------------------\n"
-    //         "Display: hcat(p, frame(p))                           \n"
-    //         "-----------------------------------------------------\n";
+    cout << "-----------------------------------------------------\n"
+            "Display: hcat(p, frame(p))                           \n"
+            "-----------------------------------------------------\n";
  
-    // // vcout(hcat(p,frame(p)));
+    vcout(hcat(p,frame(p)));
  
     // cout << "-----------------------------------------------------\n"
     //         "Display: hcat(frame(p), p)                           \n"

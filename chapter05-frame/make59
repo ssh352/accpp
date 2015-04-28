@@ -1,0 +1,18 @@
+CXX = g++
+CC = g++
+
+all:    5-9
+
+5-9.o: 5-9.cpp
+
+frame.o:    frame.cpp frame.h
+
+vcout.o:    vcout.cpp vcout.h
+
+caseSeperater.o: caseSeperater.cpp caseSeperater.h
+
+5-9:  5-9.o vcout.o caseSeperater.o
+
+test: ; ./5-9< ../data/cases_text
+
+clean: ; rm -f *.o *.exe frame 5-9
