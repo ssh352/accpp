@@ -9,10 +9,14 @@ frame.o:    frame.cpp frame.h
 
 vcout.o:    vcout.cpp vcout.h
 
+split.o: split.cc split.h
+
 caseSeperater.o: caseSeperater.cpp caseSeperater.h
 
-5-9:  5-9.o vcout.o caseSeperater.o
+5-9:  5-9.o vcout.o caseSeperater.o split.o
 
 test: ; ./5-9< ../data/cases_text
+
+test510: ; ./5-9< ../data/palindrome
 
 clean: ; rm -f *.o *.exe frame 5-9

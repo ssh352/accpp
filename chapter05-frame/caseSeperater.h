@@ -5,5 +5,6 @@
 #include <vector>
  
 void caseSeperater(const std::vector<std::string>&, std::vector<std::string>&, std::vector<std::string>&);
+void palindrome(const std::vector<std::string>&, std::vector<std::string>&, std::vector<std::string>&);
  
 #endif // GUARD_VCOUT_H
