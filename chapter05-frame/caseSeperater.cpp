@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>    // string
+#include <cstring>  // for strlen()
 #include <vector>    // vector
 #include <cctype>
 #include <algorithm>    // reverse
@@ -33,8 +34,11 @@ void caseSeperater(const vector<string>& v, vector<string>& low, vector<string>&
     }
 }
 
-void palindrome(const vector<string>& v, vector<string>& pal, vector<string>& non_pal)
+string palindrome(const vector<string>& v, vector<string>& pal, vector<string>& non_pal)
 {
+    size_t longest_str_size = 0;
+    string longest_str;
+
     for (vector<string>::const_iterator iter = v.begin();
         iter != v.end(); ++iter)
     {
@@ -47,8 +51,18 @@ void palindrome(const vector<string>& v, vector<string>& pal, vector<string>& no
         std::reverse(reversed.begin(), reversed.end());
 
         if (lower_str == reversed)
+        {
+            // add string to the palindrome vector
             pal.push_back(*iter);
+
+            if(iter->length() > longest_str_size)
+            {
+                longest_str_size = iter->length();
+                longest_str = (*iter);
+            }
+        }
         else
             non_pal.push_back(*iter);
     }
+    return longest_str;
 }

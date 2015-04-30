@@ -52,7 +52,7 @@ int main()
         }
     }
 
-    palindrome(input_vector, palindrome_vec, non_palindrome_vec);
+    string longest_pal = palindrome(input_vector, palindrome_vec, non_palindrome_vec);
 
     cout << "input:----------------------------------------------" << endl;
     vcout(input_vector);
@@ -60,6 +60,7 @@ int main()
 
     cout << "palindrome:----------------------------------------------" << endl;
     vcout(palindrome_vec);
+    cout << "longest palindrome: " << longest_pal << endl;;
     cout << endl;
 
     cout << "non palindrome:----------------------------------------------" << endl;
