@@ -66,3 +66,56 @@ string palindrome(const vector<string>& v, vector<string>& pal, vector<string>& 
     }
     return longest_str;
 }
+
+string ascenderDescender(const vector<string>& v, vector<string>& ascender_vec,
+ vector<string>& descender_vec, vector<string>& regular)
+{
+    char ascender_letters[] = {'b','d','f','h','k','l','t'};
+    char descender_letters[] = {'g', 'j', 'p', 'q', 'y'};
+
+    size_t longest_str_size = 0;
+    string longest_regular;
+
+    for (vector<string>::const_iterator iter = v.begin();
+        iter != v.end(); ++iter)
+    {
+        bool word_state = false;
+        // loop through every letter in the string
+        for (string::size_type i = 0; i < iter->size(); ++i)
+        {
+            char lower_letter = tolower((*iter)[i]);
+            // TODO: ascender array
+            for(unsigned al = 0; al < sizeof(ascender_letters)/sizeof(ascender_letters[0]); ++al)
+            {
+                if(lower_letter == ascender_letters[al])
+                {
+                    // cout << ascender_letters[al];
+                    ascender_vec.push_back(*iter);
+                    word_state = true;
+                }
+            }
+
+            // descender arrary
+            for(unsigned dl = 0; dl < sizeof(descender_letters)/sizeof(descender_letters[0]); ++dl)
+            {
+                if(lower_letter == descender_letters[dl])
+                {
+                    // cout << descender_letters[dl];
+                    descender_vec.push_back(*iter);
+                    word_state = true;
+                }
+            }
+        }
+
+        if (!word_state)
+        {
+            regular.push_back(*iter);
+            if(iter->size() > longest_str_size)
+            {
+                longest_str_size = iter->size();
+                longest_regular = (*iter);
+            }
+        }
+    }
+    return longest_regular;
+}

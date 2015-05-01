@@ -6,5 +6,5 @@
  
 void caseSeperater(const std::vector<std::string>&, std::vector<std::string>&, std::vector<std::string>&);
 std::string palindrome(const std::vector<std::string>&, std::vector<std::string>&, std::vector<std::string>&);
- 
+std::string ascenderDescender(const std::vector<std::string>&, std::vector<std::string>&, std::vector<std::string>&, std::vector<std::string>&);
 #endif // GUARD_VCOUT_H

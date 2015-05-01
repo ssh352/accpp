@@ -19,4 +19,6 @@ test: ; ./5-9< ../data/cases_text
 
 test510: ; ./5-9< ../data/palindrome
 
+test511: ; ./5-9< ../data/fox1
+
 clean: ; rm -f *.o *.exe frame 5-9
