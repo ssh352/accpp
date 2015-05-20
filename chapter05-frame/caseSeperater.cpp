@@ -83,6 +83,9 @@ string ascenderDescender(const vector<string>& v, vector<string>& ascender_vec,
         // loop through every letter in the string
         for (string::size_type i = 0; i < iter->size(); ++i)
         {
+            if (word_state)
+                break;
+            
             char lower_letter = tolower((*iter)[i]);
             // TODO: ascender array
             for(unsigned al = 0; al < sizeof(ascender_letters)/sizeof(ascender_letters[0]); ++al)

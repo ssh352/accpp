@@ -4,6 +4,102 @@
 		"selected_items":
 		[
 			[
+				"w",
+				"word_state"
+			],
+			[
+				"lon",
+				"longest_regular"
+			],
+			[
+				"long",
+				"longest_str_size"
+			],
+			[
+				"longe",
+				"longest_str_size"
+			],
+			[
+				"in",
+				"interesting_word"
+			],
+			[
+				"asc",
+				"ascender_vec"
+			],
+			[
+				"de",
+				"descender_letters"
+			],
+			[
+				"low",
+				"lower_letter"
+			],
+			[
+				"asce",
+				"ascender_letters"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"reg",
+				"reg_vec"
+			],
+			[
+				"re",
+				"reg_vec"
+			],
+			[
+				"des",
+				"descender_vec"
+			],
+			[
+				"siz",
+				"size_t"
+			],
+			[
+				"str",
+				"strlen"
+			],
+			[
+				"lw",
+				"lower_str"
+			],
+			[
+				"palind",
+				"palindrome"
+			],
+			[
+				"rever",
+				"reverseString"
+			],
+			[
+				"palindro",
+				"palindrome_vec"
+			],
+			[
+				"pan",
+				"palindrome_vec"
+			],
+			[
+				"inpu",
+				"input_vector"
+			],
+			[
+				"cons",
+				"const_iterator"
+			],
+			[
+				"si",
+				"size_type"
+			],
+			[
+				"s",
+				"size_type"
+			],
+			[
 				"vec",
 				"vector	std::vector"
 			],
@@ -42,10 +138,6 @@
 			[
 				"spli",
 				"split_sign"
-			],
-			[
-				"si",
-				"size_t"
 			],
 			[
 				"split",
@@ -124,20 +216,8 @@
 				"num_size"
 			],
 			[
-				"in",
-				"include	cpp-include"
-			],
-			[
 				"rec",
 				"rectagle"
-			],
-			[
-				"s",
-				"size"
-			],
-			[
-				"str",
-				"string"
 			],
 			[
 				"col",
@@ -172,16 +252,16 @@
 				":w - Save"
 			],
 			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
 				"prefer",
 				"Preferences: Settings - User"
 			],
 			[
 				":c++",
 				"Set Syntax: C++"
-			],
-			[
-				":q",
-				"Set Syntax: SQL"
 			],
 			[
 				"install",
@@ -332,17 +412,26 @@
 	],
 	"file_history":
 	[
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/split.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/split.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/vcout.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/vcout.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/5-9.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/caseSeperater.h",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/caseSeperater.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/make59",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/make_frame",
+		"/Users/wuhao/Documents/GitHub/accpp/data/fox1",
+		"/Users/wuhao/Documents/GitHub/accpp/data/fox",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/main.cpp",
+		"/Users/wuhao/Documents/GitHub/accpp/data/palindrome",
+		"/Users/wuhao/Documents/GitHub/accpp/data/cases_text",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/frame.h",
 		"/Users/wuhao/Documents/GitHub/accpp/data/test",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/frame.cpp",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/main.cpp",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/hcat.cpp",
-		"/Users/wuhao/Documents/GitHub/accpp/data/fox",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/make_frame",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/vcout.h",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/vcat.h",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/hcat.h",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/vcout.cpp",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-frame/vcat.cpp",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-Mathalope/extract_fails.h",
 		"/Users/wuhao/Documents/GitHub/accpp/chapter05-Mathalope/main.cc",
@@ -434,7 +523,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -448,6 +537,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"            ",
+			"interesting_word",
+			"strlen",
+			"ascender_letters",
+			"al",
+			"data",
+			"iter",
+			"string",
+			"orinal_str",
+			"iter",
 			"center",
 			"frame",
 			"\"\"",
@@ -563,24 +662,56 @@
 		"selected_items":
 		[
 			[
-				"hca",
-				"hcat.cpp"
+				"mak5",
+				"make59"
+			],
+			[
+				"make_",
+				"make_frame"
+			],
+			[
+				"case",
+				"caseSeperater.cpp"
+			],
+			[
+				"mak",
+				"make59"
+			],
+			[
+				"spli",
+				"split.cc"
+			],
+			[
+				"s",
+				"split.h"
+			],
+			[
+				"5-9",
+				"5-9.cpp"
 			],
 			[
 				"make",
 				"make_frame"
 			],
 			[
-				"mak",
-				"make_frame"
+				"main",
+				"main.cpp"
+			],
+			[
+				"vcou",
+				"vcout.h"
+			],
+			[
+				"vco",
+				"vcout.cpp"
+			],
+			[
+				"hca",
+				"hcat.cpp"
 			],
 			[
 				"main.cc",
 				"accpp/chapter05-hao/main.cc"
-			],
-			[
-				"main",
-				"accpp/chapter05-hao/main.cpp"
 			],
 			[
 				"text",
